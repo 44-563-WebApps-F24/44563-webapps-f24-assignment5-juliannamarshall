@@ -13,6 +13,20 @@
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="desserts.html">Dessert options</a>
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"></button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-link">
+          <a class="nav-link" href="basic.html">Basic.html</a>
+        </li>
+        <li class="nav-link"></li>
+          <a class="nav-link" href="advanced.html">Advanced.html</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <h1>After dinner hosted by Julianna Marshall</h1>
   <div class="row">
     <div class="col-sm-2">M</div>
@@ -112,5 +126,21 @@
         <li><a class="dropdown-item" href="advanced.html">Advanced.html</a> </li>
       </div>
   </div>
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Dessert</label>
+      <input type="text" class="form-control" placeholder="Enter your dessert.">
+    </div>
+    <div class="form-check">
+      <label class="form-check-label">Sign up for newsletter?</label>
+      <input type="checkbox" class="form-check-input">
+    </div>
+    <button class="btn btn-primary">Submit</button>
+  </form>
 </body>
 </html>
